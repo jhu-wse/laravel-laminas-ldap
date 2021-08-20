@@ -1,0 +1,20 @@
+{
+  "name": "jhu-wse/laravel-laminas-ldap",
+  "description": "Bridges Laminas' LDAP library into Laravel",
+  "type": "library",
+  "require": {
+    "laminas/laminas-ldap": "^2.10"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Jhu\\Wse\\LaravelLaminasLdap\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tim Jarrett",
+      "email": "tim.jarrett@gmail.com"
+    }
+  ]
+}
